@@ -1,0 +1,56 @@
+<style>
+  h1 {
+    color: blue;
+      }
+  h2 {
+    color: blue;
+      }
+  h3 {
+    color: sienna;
+    border-style:double;
+    width:12rem;
+    margin: 1rem;
+    padding: .5rem;
+  }
+  a:hover {
+    background-color:lime;
+  }
+  a {
+    background-color:cyan;
+    width: 10rem;
+    margin: 1rem;
+    padding: .5rem;
+  }
+  a.classy:hover {
+    background-color:salmon;
+  }
+  a.classy {
+    background-color:bisque;
+    box-sizing: border-box;
+    width: 10rem;
+    margin: 2rem;
+    padding: .5rem;
+  }
+  nav {
+    color: red;
+    border-style: double none groove none;
+    border-width: 2px;
+    border-color: red blue blue;
+  }
+  body {
+    background-color: #e0ffff;
+    background-image: url("../images/drivingcolorado1.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 450px 100px;
+      }
+  *{
+    box-sizing: border-box;
+  }
+  img {
+    border: 2px solid #7fffd4;
+    width: 50%;
+    margin: 1rem;
+    padding: .5rem;
+  }
+  </style>
