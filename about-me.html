@@ -4,7 +4,7 @@
    <meta charset="utf-8">
    <title>About Me</title>
    <link rel="stylesheet" type="text/css" href="styles/styles.css">
-
+<script src="https://kit.fontawesome.com/dda76214f2.js" crossorigin="anonymous"></script>
   </head>
 
    <body>
@@ -12,42 +12,46 @@
     <h1>Portfolio</h1>
       <nav>
       <a href="index.html" class="classy">Home</a>
+      <i class="fas fa-battery-empty"></i>
+      <i class="fas fa-battery-quarter"></i>
+      <i class="fas fa-battery-half"></i>
+      <i class="fas fa-battery-three-quarters"></i>
+      <i class="fas fa-battery-full"></i>
       </nav>
   </header>
 
 <section>
   <h2>A portfolio of recent projects:</h2>
-  <article>
+
+  <div class="portfolio">
+  <div class="project">
     <h3>Project 1</h3>
       <img src="images/airplane1.jpg" alt="Looking out of an airplane window with a view of Indialantic,FL and both the Indian River and Atlantic ocean.">
+      <a href="https://github.com/TommyBoyUW/semantic-elements.git">Project 1</a>
       <p>I first learned to git</p>
-      <a href="https://github.com/TommyBoyUW/semantic-elements.git">Project 1 link</a>
-  </article><br>
+  </div><br>
 
-  <article>
-    <h3>Project 2</h3>
+  <div class="project">
+    <h3> <a href="https://github.com/TommyBoyUW/portfolio">Project 2</a></h3>
      <img src="images/airplane2.jpg"  alt="Looking out of an airplane window with a view of Indialantic,FL and the Atlantic ocean.">
      <p>Then I learned github</p>
-     <a href="https://github.com/TommyBoyUW/portfolio">Project 2 link</a>
-  </article><br>
+  </div><br>
 
-  <article>
-    <h3>Project 3</h3>
+  <div class="project">
+    <h3><a href="https://github.com/TommyBoyUW/portfolio">Project 3</a></h3>
     <img src="images/drivingcolorado1.jpg" alt="Driving through colorado with mountains in the background, a few clouds and blue sky.">
     <p>And then CSS</p>
-    <a href="https://github.com/TommyBoyUW/portfolio">Project 3 link</a>
-  </article><br>
+    </div><br>
 
-  <article>
-    <h3>Project 4</h3>
+  <div class="project">
+    <h3><a href="https://github.com/TommyBoyUW/portfolio">Project 4</a></h3>
       <img src="images/drivingcolorado2.jpg"  alt="Driving through colorado with farmland and mountains in the background and blue sky and a few clouds.">
     <p>And a bit more</p>
-    <a href="https://github.com/TommyBoyUW/portfolio">Project 4 link</a>
-  </article><br>
-
+    </div><br>
+</div>
 </section>
 
- <footer>
+ <footer class="footer">
   <p>Project Author: Tom Sepanik</p>
   <p><a href="mailto:sepant@uw.edu" class="classy">Sepant@UW.edu</a></p>
  </footer>
