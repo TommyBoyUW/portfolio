@@ -1,83 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Luxurious+Roman&family=Playball&family=Poiret+One&family=Sawarabi+Mincho&family=Titillium+Web:ital@1&display=swap');
 
+  *{  box-sizing: border-box;}
+
   h1 {
     color: blue;
     font-family: 'Fredoka One', cursive;
+    text-align: center;
       }
 
   h2 {
-    color: blue;
+    color: purple;
     font-family: 'Poiret One', cursive;
      }
 
-  p {
-   font-family: 'Luxurious Roman', cursive;
+     h3 {
+       font-family: 'Sawarabi Mincho', sans-serif;
+       font-weight: 700;
+     }
 
-   }
-.project{height: 10rem;
+  p {font-family: 'Luxurious Roman', cursive;}
 
+   header {
+    width: 100%;
+    background: #fddfdf;
+    padding: 2rem 0;
+
+    }
+
+    nav {
+      color: red;
+      border-style: double none groove none;
+      border-width: 2px;
+      border-color: red blue blue;
+    }
+
+    .project{
+      height: 18rem;
+      width: 15rem;
+      background: #defde0;
+      text-align: center;
     }
 
     .portfolio{
       display: flex;
-      flex-direction:row;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-      flex-basis: 50%;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      flex-basis: 75%;
     }
 
-  h3 {
-    font-family: 'Sawarabi Mincho', sans-serif;
-    font-weight: 700;
-    color: sienna;
-    border-style:double;
-    width:12rem;
-    margin: 1rem;
-    padding: .5rem;
-  }
-  a:hover {
-    background-color:lime;
-  }
-  a {
-    font-family: 'Titillium Web', sans-serif;
-    background-color:cyan;
-    width: 12rem;
-    margin: 1rem;
-    padding: .5rem;
-  }
-  a.classy:hover {
-    background-color:salmon;
-  }
-  a.classy {
-    background-color:bisque;
-    box-sizing: border-box;
-    width: 10rem;
-    margin: 2rem;
-    padding: .5rem;
-  }
-  nav {
-    color: red;
-    border-style: double none groove none;
-    border-width: 2px;
-    border-color: red blue blue;
-  }
-  body {
-    background-color: #e0ffff;
-    background-image: url("../images/drivingcolorado1.jpg");
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-size: 450px 100px;
-      }
-  *{  box-sizing: border-box;}
+  a:hover {background-color:#fcf7de;}
 
-  img {
+  a {font-family: 'Titillium Web', sans-serif;}
+
+    img {
     border: 2px solid #7fffd4;
-    width: 12rem;
-    margin: 1rem;
-    padding: .5rem;
+    width: 10rem;
+    height: 10rem;
   }
 
-  .footer{
-    clear: both;
-    position: bottom;
+  body{
+  background-color: #def3fd;
+    }
+
+  footer{
+  width: 100%;
+  background-color: #fddfdf;
+  
+  padding: 2rem 0;
+  font-size: 1rem;
+  text-align:center;
   }
