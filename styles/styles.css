@@ -48,7 +48,7 @@
       flex-basis: 75%;
     }
 
-  a:hover {background-color:#fcf7de;}
+
 
   a {font-family: 'Titillium Web', sans-serif;}
 
@@ -65,8 +65,32 @@
   footer{
   width: 100%;
   background-color: #fddfdf;
-  
+
   padding: 2rem 0;
   font-size: 1rem;
   text-align:center;
   }
+
+   p:nth-child(odd) {
+      color: green;
+      }
+
+   p::first-letter {font-size: 150%}
+
+  nav {
+     display: flex;
+     gap: 0.5rem;
+   }
+
+  .classy:hover, .classy:focus {
+    flex: 1;
+    background-color:#fcf7de;
+    text-align: center;
+    transition: all 0.5s ease-out;
+    }
+
+  img:hover {
+    transition: border 4s ease-in 1s;
+    width: 15rem;
+    height: 15rem;
+   }
