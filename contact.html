@@ -19,29 +19,36 @@
       <h2>Contact Form</h2>
 
       <form class="contactform" method="GET">
+        <div class="allformat">
+          <div class="leftform">
 
-        <label class="row1">First Name:
+        <label class="row1">First Name:<br>
         <input type="text" name="applicantFirstname">
       </label>
-        <label class="row2">Last Name:
+      <br><br>
+
+        <label class="row2">Last Name:<br>
         <input type="text" name="applicantLastname">
       </label>
-
-
   <br><br>
-
-        <label>Email:
+        <label class="row1">Email:<br>
         <input type="email" name="applicantEmail">
       </label>
-        <label>Phone Number:
+      <br><br>
+
+        <label class="row2">Phone Number:<br>
         <input type="tel" name="applicantTel">
       </label>
-<br><br>
+      <br><br>
 
-          <label>City
+
+
+          <label class="row1">City<br>
           <input type="text" name="applicantCity">
         </label>
-            <label>State
+        <br><br>
+
+            <label class="row2">State<br>
               <select name="state">
                 <option value="">Please select</option>
                 <option value="AL">Alabama</option>
@@ -97,60 +104,62 @@
 	              <option value="WY">Wyoming</option>
             </select>
           </label>
-
+</div>
           <br><br>
+<div>
+          <fieldset class="membership">
+            <legend>Membership</legend>
+        <label class="container">
+          <input type="radio" name="radio">
+          Member
+          <span class="checkmark"></span>
+        </label>
+        <label class="container">
+          <input type="radio" name="radio">
+          Non-Member
+          <span class="checkmark"></span>
+        </label>
+        </fieldset>
 
-    <fieldset class="membership">
-      <legend>Membership</legend>
-  <label class="container">Member
-    <input type="radio" name="radio">
-    <span class="checkmark"></span>
-  </label>
-  <label class="container">Non-Member
-    <input type="radio" name="radio">
-    <span class="checkmark"></span>
-  </label>
-</fieldset>
-      <br><br>
+            <br><br>
 
 
-                <fieldset class="checkbox">
+                <fieldset class="preference">
                   <legend>Location Preferences</legend>
-                <label>Northwest
+                <label>
                   <input type="checkbox" name="type" value="northwest">
                   Northwest
-                  </label>
-                  <label>Southwest
+                  </label><br>
+                  <label>
                   <input type="checkbox" name="type" value="southwest">
-                  </label>
-                  <label>Northeast
+                  Southwest
+                </label><br>
+                  <label>
                   <input type="checkbox" name="type" value="northeast">
-                  </label>
-                  <label>Southeast
+                  Northeast
+                </label><br>
+                  <label>
                   <input type="checkbox" name="type" value="southeast">
+                  Southeast
                   </label>
                   </fieldset>
 <br><br>
+<label>Upload a file:</label><br><br>
+<input type="file" name="newfile">
+<br><br>
+</div></div>
 
-                            <label>Additional Comments:
-                              <textarea name="applicantResponse" rows="5" cols="99">Provide additional comments</textarea>
+                            <label>Additional Comments:<br>
+                              <textarea name="applicantResponse" class="comments" rows="5" cols="100">Provide additional comments</textarea>
                            </label>
 <br><br>
 
 
 
-
-    <label>Upload a file:</label><br><br>
-    <input type="file" name="newfile">
-<br><br>
-
-
   <br><br>
         <input type="submit" value="Submit Application">
         </form>
-
-
-
+  <br><br>
       <footer class="footer">
        <p>Project Author: Tom Sepanik</p>
        <p><a href="mailto:sepant@uw.edu" class="classy">Sepant@UW.edu</a></p>

@@ -96,39 +96,25 @@
    }
 
       label {
-        font-size: 1.5rem;
+       font-size: 1.5rem;
        color: purple;
        font-weight: bold;
        font-family: 'Poiret One', cursive;
        display: inline-block;
    }
 
-   .contactform {
-     display: flow-root;
-     margin: 0 10% 0 10%;
+.allformat {
+  display: flex;
 }
 
+ .allformat > div {
+      padding: 5%;
+ }
 
+ .contactform {
+   padding: 0 25% 0 25%;
+    }
 
-.row {
-  display: flex-root;
-  justify-content: flex-end;
-  padding: .5em;
-}
-
-   textarea {
-     border: none;
-     border-radius: 2px;
-     cursor:pointer;
-     box-sizing: border-box;
-     transition: width 0.2s ease-in-out;
-   }
-   textarea:focus {
-      border: 5px solid lightgreen;
-      width: 100%;
-        height: 10%;
-        font-size: 1.5rem;
-}
 
    input[type=text], [type=email], [type=tel] {
      border: none;
@@ -141,7 +127,6 @@
 
     input[type=text]:focus, [type=email]:focus,[type=tel]:focus {
         border: 5px solid lightgreen;
-
           height: 2.5rem;
           font-size: 2rem;
 }
